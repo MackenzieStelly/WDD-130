@@ -50,4 +50,39 @@ hero.img{
     width: 100%;
     height: auto;
 }
+header{
+    color: steelblue
+    display: grid;
+    img{
+        color: white
+    }
+    h1{
+        color: white
+    }
+    nav{
+        <style type="text/css">
+    *{margin: 0; padding: 0;}
+    #container {height: 100%; width:100%; font-size: 0;}
+    #left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+    #left {width: 25%; background: blue;}
+    #middle {width: 50%; background: green;}
+    #right {width: 25%; background: yellow;}
+    </style>
+        display: grid;
+        grid-auto-rows: minmax(30px, auto);
+        text-align: center;
+    }
 
+
+}
+history{ 
+    color: steelblue
+    text-align: left;
+}
+adventure{
+    <img style="float: right; margin: 0px 0px 15px 15px;" src="image/your-image.png" width="100" />
+    
+}
+footer{
+    <img style="float: right; margin: 0px 0px 15px 15px;" src="image/" width="100" />
+}
