@@ -16,28 +16,28 @@
 h1{
     color: black;
     background-color: var(--accent2-color);
-    font-family: var(--Nanum Gothic);
-    color: white;
+    font-family: var(--Nanum-Gothic);
+    color: steelblue;
     position: absolute;
 }
 h2{ 
     color: black;
     background-color: var(--accent2-color);
     font-family: var(--nanum gothic);
-    color: white;
+    color: steelblue;
 
 }
 h3{ 
     color: black;
     background-color: var(--accent2-color);
     font-family: var(--nanum gothic);
-    color: white;
+    color: steelblue;
 }
 h4{
     color: black;
     background-color: var(--accent2-color);
     font-family: var(--nanum gothic);
-    color:white;
+    color: steelblue;
 }
 p {
     color: var(--accent1-color);
@@ -51,22 +51,22 @@ hero.img{
     height: auto;
 }
 header{
-    color: steelblue
+    color: steelblue;
     display: grid;
     img{
-        color: white
+        color: #333;
     }
     h1{
-        color: rgb(121, 15, 15)
+        color: rgb(121, 15, 15);
     }
     nav{
         <style type="text/css">
-    *{margin: 0; padding: 0;}
-    #container {height: 100%; width:100%; font-size: 0;}
-    #left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
-    #left {width: 25%; background: blue;}
-    #middle {width: 50%; background: green;}
-    #right {width: 25%; background: yellow;}
+    *{margin: 0; padding: 0};
+    #container {height: 100%; width:100%; font-size: 0};
+    #left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px};
+    #left {width: 25%; background: blue};
+    #middle {width: 50%; background: green};
+    #right {width: 25%; background: yellow};
     </style>
         display: grid;
         grid-auto-rows: minmax(30px, auto);
@@ -76,7 +76,7 @@ header{
 
 }
 history{ 
-    color: steelblue
+    color: steelblue;
     text-align: left;
 }
 adventure{
