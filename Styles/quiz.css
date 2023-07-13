@@ -1,2 +1,20 @@
 @import url(https://fonts.google.com/specimen/Nanum+Gothic)
 @import url(https://fonts.google.com/specimen/Roboto)
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Nanum-Gothic, Roboto;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+header{
+    margin: 0, auto;
+    width: 160px;
+    color: navy;
+    text-align: center;
+}

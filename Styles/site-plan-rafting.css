@@ -1,5 +1,5 @@
 @import url(https://fonts.google.com/specimen/Nanum+Gothic)
-@import url(https://fonts.google.com/specimen/Orbit)
+@import url(https://fonts.google.com/specimen/Roboto)
 :root {
     --primary color: #094074
     --secondary color: #F7EF81
@@ -12,16 +12,16 @@
     -- nav-hover-link-color: #3C8DDF
     -- nav-hover-background-color: #F8F8F8
 
-    font-family = var(--Nanum Gothic)
-    max-width = 960px
-    padding = 20px
+    font-family = var(--Nanum Gothic);
+    max-width = 960px;
+    padding = 20px;
     h1, h2, h3, h4, h5, h6 {
     font-family: var(--orbit);
-    color: var(--#094074)
+    color: var(--#094074);
     }
     header { 
         padding: 20px;
-        background-color: var(--#E88873)
+        background-color: var(--#E88873);
     }
     p { 
         padding: 25px;
@@ -33,14 +33,14 @@
     }
     nav a {
         display: block;
-        color: var(--#094074)
+        color: var(--#094074);
         text-decoration: none;
         padding: 1rem;
     }
     nav a:link, nav a:visited {
-        color: var(--#094074)
+        color: var(--#094074);
     }
     nav a:hover {
-        color: var(--#3C8DDF)
+        color: var(--#3C8DDF);
     }
 }
