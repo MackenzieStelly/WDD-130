@@ -1,0 +1,32 @@
+form {
+    width: 450px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+label, input, button, select, textarea {
+    font-family: Nanum Gothic, Roboto sans-serif;
+}
+label{
+    padding: 0.5rem;
+    margin: 1 auto;
+}
+input{
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+button{
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: darkgreen;
+}

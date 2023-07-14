@@ -44,7 +44,7 @@ legend{
     font-size: 1.3em;
 }
 label, input, button, select, textarea{
-    font-family: Nanum Gothic, Orbit sans-serif;
+    font-family: Nanum Gothic, Roboto sans-serif;
 }
 label{
     text-align: right;
