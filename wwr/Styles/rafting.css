@@ -14,11 +14,12 @@
     --nav-hover-background-color: #F8F8F8;
 }
 h1{
-    color: black;
-    background-color: var(--accent2-color);
+    background:#094074;
     font-family: var(--Nanum-Gothic);
-    color: steelblue;
+    color: #F8F8F8;
     position: absolute;
+    margin-left: auto;
+    margin-right: auto;
 }
 h2{ 
     color: black;

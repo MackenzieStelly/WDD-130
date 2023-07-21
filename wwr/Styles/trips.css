@@ -13,6 +13,7 @@
     --nav-hover-link-color: #3C8DDF;
     --nav-hover-background-color: #F8F8F8;
 }
+
 body{
     background:#E88873;
 
@@ -27,7 +28,7 @@ body{
 nav a {
     color:#F8F8F8;
     font-size: 1.2rem;
-    align-items: right;
+    align-items: center;
     justify-content: space-evenly;
 }
 nav img{
@@ -43,6 +44,8 @@ p {
     width: 300px;
     padding: 50px;
     margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 img {
     padding-left: 75px;
@@ -61,5 +64,10 @@ a:link {
 table, th, td {
     border:5px solid #094074;
     background: #F7EF81;
+    margin-left: auto;
+    margin-right: auto;
   }
+.center {
+    text-align: center;
+}
   
