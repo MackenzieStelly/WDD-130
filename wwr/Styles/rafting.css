@@ -13,46 +13,48 @@
     --nav-hover-link-color: #3C8DDF;
     --nav-hover-background-color: #F8F8F8;
 }
+.center {
+    text-align: center;
+}
 h1{
-    background:#094074;
-    font-family: var(--Nanum-Gothic);
-    color: #F8F8F8;
+    font-family: var(--paragraph-font);
+    color: #094074;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
 }
 h2{ 
-    color: black;
-    background-color: var(--accent2-color);
-    font-family: var(--nanum gothic);
-    color: steelblue;
+    font-family: var(--paragraph-font);
+    color: #094074;
 
 }
 h3{ 
-    color: black;
-    background-color: var(--accent2-color);
-    font-family: var(--nanum gothic);
-    color: steelblue;
+    font-family: var(--paragraph-font);
+    color: #094074;
 }
 h4{
-    color: black;
-    background-color: var(--accent2-color);
-    font-family: var(--nanum gothic);
-    color: steelblue;
+    font-family: var(--paragraph-font);
+    color: #094074;
 }
 p {
-    color: var(--accent1-color);
-    font-family: var(--roboto);
+    font-family: var(--heading-font);
     color: black;
 
+}
+body{
+    background:#E88873;
 }
 hero.img{
     display:block;
     width: 100%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    
 }
 header{
-    color: steelblue;
+    color: #094074;
     display: grid;
     img{
         color: #333;
@@ -73,17 +75,15 @@ header{
         grid-auto-rows: minmax(30px, auto);
         text-align: center;
     }
-
-
 }
 history{ 
-    color: steelblue;
-    text-align: left;
+    color: #094074;
+    text-align: center;
 }
 adventure{
     <img style="float: right; margin: 0px 0px 15px 15px;" src="image/your-image.png" width="100" />
     
 }
 footer{
-    <img style="float: right; margin: 0px 0px 15px 15px;" src="image/" width="100" />
+    background:#F7EF81;
 }
